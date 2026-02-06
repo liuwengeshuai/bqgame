@@ -1,0 +1,10 @@
+{
+  "name": "bqgame",
+  "version": "1.0.0",
+  "description": "Realtime two-player slingshot shooter game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  }
+}
