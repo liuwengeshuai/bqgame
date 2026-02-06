@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>双人弹弓射击</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>双人实时弹弓射击（像愤怒的小鸟）</h1>
+      <p id="status">连接中...</p>
+      <canvas id="game" width="1000" height="560"></canvas>
+      <div class="tips">
+        <p>玩法：按住自己角色附近拖拽，松开后发射。命中对手 5 次获胜。</p>
+        <button id="restart">重新开始</button>
+      </div>
+    </main>
+
+    <script src="/client.js"></script>
+  </body>
+</html>
